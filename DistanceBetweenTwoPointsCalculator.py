@@ -11,7 +11,7 @@
 import math
 def calculateDistanceBetween(x1, y1, x2, y2):
     answer = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
-    answer = round(answer, 0)
+    answer = round(answer, 2)
     return answer
 
     
